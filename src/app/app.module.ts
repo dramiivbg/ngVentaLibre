@@ -24,7 +24,9 @@ import {environment} from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    PostComponent,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,

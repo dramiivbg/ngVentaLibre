@@ -23,7 +23,8 @@ export class PostComponent implements OnInit {
 
      this.post$ = this.postSvc.getOnePost(idPost);
  
-    console.log(this.post$);
+     console.log(this.post$);
+     
  
    }
  
